@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 project(CompanyWrittenTest)
 # 设置 可执行文件
-add_executable(${PROJECT_NAME} "buhuo.cpp")
+add_executable(${PROJECT_NAME} "top-k-frequent-words.cpp")
 
 add_library(Main "main.cpp")
 
