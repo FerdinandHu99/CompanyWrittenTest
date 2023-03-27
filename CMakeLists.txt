@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 project(CompanyWrittenTest)
 # 设置 可执行文件
-add_executable(${PROJECT_NAME} "champagne-tower.cpp")
+add_executable(${PROJECT_NAME} "swapPairs.cpp")
 
 add_library(Main "main.cpp")
 
@@ -20,3 +20,7 @@ add_library(kujiale "cinema.cpp")
 # 设置 美团笔试项目
 add_library(meituan1 "buhuo.cpp")
 add_library(meituan2 "interpreter.cpp")
+
+# 设置 腾讯笔试项目
+add_library(tengxun1 "swappairs.cpp")
+#add_library(tengxun2 "interpreter.cpp")
